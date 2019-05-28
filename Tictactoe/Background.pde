@@ -6,6 +6,6 @@ public class Pictures{
   }
   
   void makep(){
-    image(b,0,0,1000,1000);
+    image(b,0,0,1300,1000);
   }
 }

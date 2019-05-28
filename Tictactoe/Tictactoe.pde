@@ -1,21 +1,29 @@
 Pictures pic;
 Tables t;
 Rules r;
-XO simp;
+XO simple;
+Players p;
 
 void setup(){
-  size(1000,1000);
+  size(1300,1000);
   
   pic = new Pictures();
   t = new Tables();
   r = new Rules();
-  simp = new XO();
+  simple = new XO(); 
+  p = new Players();
+  pic.makep();
+  t.makesquare();
+  p.makebox();
 }
 
 void draw(){
   println(mouseX+","+mouseY);
-  pic.makep();
-  t.makesquare();
   r.makerules();
-  simp.makexo();
+  simple.makexo(); 
+ 
+}
+
+void mouseClicked(){
+  setup();
 }

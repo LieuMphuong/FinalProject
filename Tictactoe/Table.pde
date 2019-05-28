@@ -7,11 +7,11 @@ public class Tables{
    
     for(int i=350; i<=800; i+=Squaresize){
       for(int j =350; j<=800; j+=Squaresize){    
-      fill(204,255,255,250);   
-     
+      fill(204,255,255,250);      
       rect(i,j,Squaresize, Squaresize);
       stroke(10);
       }
     }
-  }
+    
+  }    
 }
