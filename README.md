@@ -1,11 +1,11 @@
 # FinalProject
-# Project Title and purpose
+# Tic-tac-toe
 
 One Paragraph of project description goes here
 
 ### Difficulties or opportunities you encountered along the way.
 
-The toughest part was...
+The toughest part was to get the change in color for the line, because there are 2 players and the color for each player should be different. 
 
 ### Most interesting piece of your code and explanation for what it does.
 
@@ -34,7 +34,7 @@ This is the code that moves down the tree as decisions are made. It gets each va
 
 * [Processing](https://processing.org/) - The IDE used
 
-## Authors
+## Phuong Lieu
 
 * **Billie Thompson** 
 
