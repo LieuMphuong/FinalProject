@@ -2,6 +2,8 @@ public class Tables{
   int Squaresize = 200;
   
   void makesquare(){
+    stroke(0);
+    strokeWeight(1);
     fill(255,255,255);
     rect(340,340,620,620);
    
@@ -12,6 +14,7 @@ public class Tables{
       stroke(10);
       }
     }
+   
     
   }    
 }

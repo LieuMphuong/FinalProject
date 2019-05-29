@@ -22,8 +22,9 @@ void draw(){
   r.makerules();
   simple.makexo(); 
  
-}
-
-void mouseClicked(){
-  setup();
+ /////reset botton
+ if(keyPressed == true){
+   setup();
+ }
+ 
 }
