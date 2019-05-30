@@ -1,5 +1,5 @@
 # FinalProject
-# Tic-tac-toe
+# Tic-tac-toe, Purpose is to create a Tic-tac-toe game
 
 One Paragraph of project description goes here
    - This project is to creates a simple Tic-tac-toe game. This game is follows the orignial rules with the 2 players take turn to play. The game is created to be like play on paper. The players can draw freely draw their simple (x/o). Then after each game, the players just have to press any keys on the keyboard to reset the game.
@@ -11,8 +11,13 @@ The toughest part was to get the line drawing to move freely. Which mean that th
 ### Most interesting piece of your code and explanation for what it does.
 
 //////
-
-This is the code that moves down the tree as decisions are made. It gets each value from both left and right and also casts the value to a String. If the progressions arrives at the leaf nodes, those values are printed.
+stroke(255,0,0);
+strokeWeight(20);
+if(mousePressed == true && mouseButton == LEFT){
+  stroke(255,0,255);
+  line(pmouseX,pmouseY,mouseX,mouseY);  
+}
+// This is the code that can draw the line in playing tic-tac-toe. The first and second lines are to mark the line color and line weight. The if() statement is to draw the line to any positiion when the mouse is pressed. 
 ## Built With
 
 * [Processing](https://processing.org/) - The IDE used
