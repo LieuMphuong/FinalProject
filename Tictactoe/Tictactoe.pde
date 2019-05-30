@@ -3,6 +3,7 @@ Tables t;
 Rules r;
 XO simple;
 Players p;
+PImage cat = new PImage();
 
 void setup(){
   size(1300,1000);
@@ -26,5 +27,8 @@ void draw(){
  if(keyPressed == true){
    setup();
  }
+ ////picture
+  cat = loadImage("cat.png");
+  image(cat,190,450,200,200);
  
 }
